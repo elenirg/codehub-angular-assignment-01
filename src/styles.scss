@@ -5,19 +5,19 @@
 //     display: flex;
 // }
 header{
-    background: paleturquoise;
+    background: #9fc5e8;
     
 }
 nav{
-    background: lightcoral;
+    background: #d5a6bd;
     height: 100%;
 }
 .content{
-    background: palegreen;
-    height: 100%;
+    background: #b6d7a8;
+    height: 100%;    
 }
 footer{
-    background: palevioletred;
+    background: #d9d2e9;
 }
 .container{
     margin: 1em;
@@ -58,4 +58,9 @@ p{
 }
 nav, header, footer, .content{
     align-items:center;
+}
+.centered-text{
+    display: flex;
+    align-items: center;
+//   justify-content: center;
 }
