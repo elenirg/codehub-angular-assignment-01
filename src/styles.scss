@@ -1,9 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/scss/bootstrap.scss';
 
-// .container{
-//     display: flex;
-// }
+
 header{
     background: #9fc5e8;
     
@@ -32,20 +29,15 @@ app-wrapper{
     flex: 1;
 }
 .fill-height-or-more > div {
-    /* these are the flex items */
     flex: 1;
     flex-direction: column;
 }
 .border{
-    // border-style: solid;
-    // // border-width: 2em;
-    // border-color: red;
     padding: 0;
     outline: 2px solid black;
 }
 .row{
     margin-bottom: 15px;
-    // align-items:center;
 }
 p{
     margin: 0;
@@ -62,5 +54,4 @@ nav, header, footer, .content{
 .centered-text{
     display: flex;
     align-items: center;
-//   justify-content: center;
 }
